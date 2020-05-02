@@ -1,0 +1,661 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+dictionaryReplacement {
+    boundary {
+        boundingBox5 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12479 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12574 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13167 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12439 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13223 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12471 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13219 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12435 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12375 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12507 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12971 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12578 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12770 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12754 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12499 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13135 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13131 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12467 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12794 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12670 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12570 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12706 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12782 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12495 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12887 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12459 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12734 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13239 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12995 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12503 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12642 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12831 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12903 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12935 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12423 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12742 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13007 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12927 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12855 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12786 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13023 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12586 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12534 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12702 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12879 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12487 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13031 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12391 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12790 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12883 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12919 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12758 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12370 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12447 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12859 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12646 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12871 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13103 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12694 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12999 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13163 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12538 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13087 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12602 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12943 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12955 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13019 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12991 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12475 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12594 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12863 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13183 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13147 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12519 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13171 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13111 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12959 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12491 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13215 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12407 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12443 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12542 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13063 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12638 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12891 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13095 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12895 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12718 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13115 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12622 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12911 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12558 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13119 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12979 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12726 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13107 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12750 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13247 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13059 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13083 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12658 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12674 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12847 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12975 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12987 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13003 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13043 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12526 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13195 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13075 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12626 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12778 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12802 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12515 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12582 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12678 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12419 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13187 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13235 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12810 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12939 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12427 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13011 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12690 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12947 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13159 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12530 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12686 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12590 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13179 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13227 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13123 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12387 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13047 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13207 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13151 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12806 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12662 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12907 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12550 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12899 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13155 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13055 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13203 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12915 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13035 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12455 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12923 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13243 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13191 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12730 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12931 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12511 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12654 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13127 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12839 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12714 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13231 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12822 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12403 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12722 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12415 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12843 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12983 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12666 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12867 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13143 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12383 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13139 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12463 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12698 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12483 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12554 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12614 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12814 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12630 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13199 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13079 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12610 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12963 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12451 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12826 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13071 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12967 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12762 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12411 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13091 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12835 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12546 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12431 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12738 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12818 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12399 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12798 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12710 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12746 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13051 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12606 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12774 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12682 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12875 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13175 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12766 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13099 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13015 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12650 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12634 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12851 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12379 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12598 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12951 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13067 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13027 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE13211 {
+            type wall;
+        }
+        A1_I3_B2_TE359_A1_I3_B2_TE12566 {
+            type wall;
+        }
+        boundingBox2 {
+            type symmetry;
+        }
+    }
+}

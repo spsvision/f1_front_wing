@@ -1,0 +1,1565 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+221
+(
+    boundingBox1
+    {
+        type            patch;
+        nFaces          250;
+        startFace       6914020;
+    }
+    boundingBox2
+    {
+        type            symmetry;
+        inGroups        1(symmetry);
+        nFaces          16449;
+        startFace       6914270;
+    }
+    boundingBox3
+    {
+        type            patch;
+        nFaces          50;
+        startFace       6930719;
+    }
+    boundingBox4
+    {
+        type            patch;
+        nFaces          50;
+        startFace       6930769;
+    }
+    boundingBox5
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          14027;
+        startFace       6930819;
+    }
+    boundingBox6
+    {
+        type            patch;
+        nFaces          125;
+        startFace       6944846;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12370
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7309;
+        startFace       6944971;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12375
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          48;
+        startFace       6952280;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12379
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2581;
+        startFace       6952328;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12383
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1084;
+        startFace       6954909;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12387
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          50;
+        startFace       6955993;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12391
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1681;
+        startFace       6956043;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12399
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          74;
+        startFace       6957724;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12403
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1819;
+        startFace       6957798;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12407
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1671;
+        startFace       6959617;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12411
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1582;
+        startFace       6961288;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12415
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1785;
+        startFace       6962870;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12419
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1655;
+        startFace       6964655;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12423
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1471;
+        startFace       6966310;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12427
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1411;
+        startFace       6967781;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12431
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          930;
+        startFace       6969192;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12435
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          668;
+        startFace       6970122;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12439
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          626;
+        startFace       6970790;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12443
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          851;
+        startFace       6971416;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12447
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          51;
+        startFace       6972267;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12451
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          363;
+        startFace       6972318;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12455
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          183;
+        startFace       6972681;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12459
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          18;
+        startFace       6972864;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12463
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          70;
+        startFace       6972882;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12467
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          72;
+        startFace       6972952;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12471
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          19;
+        startFace       6973024;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12475
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          151;
+        startFace       6973043;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12479
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          276;
+        startFace       6973194;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12483
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22;
+        startFace       6973470;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12487
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2360;
+        startFace       6973492;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12491
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          880;
+        startFace       6975852;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12495
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          499;
+        startFace       6976732;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12499
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          863;
+        startFace       6977231;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12503
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          13;
+        startFace       6978094;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12507
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          24;
+        startFace       6978107;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12511
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2175;
+        startFace       6978131;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12515
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          66;
+        startFace       6980306;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12519
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          9715;
+        startFace       6980372;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12526
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          294;
+        startFace       6990087;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12530
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          17;
+        startFace       6990381;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12534
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2183;
+        startFace       6990398;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12538
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          881;
+        startFace       6992581;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12542
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          518;
+        startFace       6993462;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12546
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          860;
+        startFace       6993980;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12550
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          13;
+        startFace       6994840;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12554
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          185;
+        startFace       6994853;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12558
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          228;
+        startFace       6995038;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12566
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1262;
+        startFace       6995266;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12570
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3698;
+        startFace       6996528;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12574
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          194;
+        startFace       7000226;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12578
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          275;
+        startFace       7000420;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12582
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26;
+        startFace       7000695;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12586
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1403;
+        startFace       7000721;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12590
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3921;
+        startFace       7002124;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12594
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          401;
+        startFace       7006045;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12598
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          278;
+        startFace       7006446;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12602
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          27;
+        startFace       7006724;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12606
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1379;
+        startFace       7006751;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12610
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3957;
+        startFace       7008130;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12614
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          354;
+        startFace       7012087;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12622
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3312;
+        startFace       7012441;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12626
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          227;
+        startFace       7015753;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12630
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1130;
+        startFace       7015980;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12634
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1657;
+        startFace       7017110;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12638
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1918;
+        startFace       7018767;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12642
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1746;
+        startFace       7020685;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12646
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1823;
+        startFace       7022431;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12650
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          734;
+        startFace       7024254;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12654
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          787;
+        startFace       7024988;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12658
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          778;
+        startFace       7025775;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12662
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          778;
+        startFace       7026553;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12666
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26;
+        startFace       7027331;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12670
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22;
+        startFace       7027357;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12674
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          27;
+        startFace       7027379;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12678
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          24;
+        startFace       7027406;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12682
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          150;
+        startFace       7027430;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12686
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          18;
+        startFace       7027580;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12690
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          184;
+        startFace       7027598;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12694
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          122;
+        startFace       7027782;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12698
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7;
+        startFace       7027904;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12702
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3;
+        startFace       7027911;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12706
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          21;
+        startFace       7027914;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12710
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          183;
+        startFace       7027935;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12714
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          112;
+        startFace       7028118;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12718
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          8;
+        startFace       7028230;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12722
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          21;
+        startFace       7028238;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12726
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          163;
+        startFace       7028259;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12730
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          155;
+        startFace       7028422;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12734
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          218;
+        startFace       7028577;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12738
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          13;
+        startFace       7028795;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12742
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4;
+        startFace       7028808;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12746
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          231;
+        startFace       7028812;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12750
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          168;
+        startFace       7029043;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12754
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2689;
+        startFace       7029211;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12758
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2707;
+        startFace       7031900;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12762
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          105;
+        startFace       7034607;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12766
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          491;
+        startFace       7034712;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12770
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          52;
+        startFace       7035203;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12774
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1335;
+        startFace       7035255;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12778
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          95;
+        startFace       7036590;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12782
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          178;
+        startFace       7036685;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12786
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          37;
+        startFace       7036863;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12790
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          126;
+        startFace       7036900;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12794
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          146;
+        startFace       7037026;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12798
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          19;
+        startFace       7037172;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12802
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          38;
+        startFace       7037191;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12806
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          34;
+        startFace       7037229;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12810
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26;
+        startFace       7037263;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12814
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          38;
+        startFace       7037289;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12818
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1;
+        startFace       7037327;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12822
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          274;
+        startFace       7037328;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12826
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2783;
+        startFace       7037602;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12831
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          978;
+        startFace       7040385;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12835
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2257;
+        startFace       7041363;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12839
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          96;
+        startFace       7043620;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12843
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2833;
+        startFace       7043716;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12847
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          103;
+        startFace       7046549;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12851
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2272;
+        startFace       7046652;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12855
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          122;
+        startFace       7048924;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12859
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3532;
+        startFace       7049046;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12863
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          720;
+        startFace       7052578;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12867
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          864;
+        startFace       7053298;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12871
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1692;
+        startFace       7054162;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12875
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4060;
+        startFace       7055854;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12879
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          108;
+        startFace       7059914;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12883
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          264;
+        startFace       7060022;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12887
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          110;
+        startFace       7060286;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12891
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          582;
+        startFace       7060396;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12895
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2665;
+        startFace       7060978;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12899
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1116;
+        startFace       7063643;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12903
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2514;
+        startFace       7064759;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12907
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2846;
+        startFace       7067273;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12911
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3093;
+        startFace       7070119;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12915
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          269;
+        startFace       7073212;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12919
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2511;
+        startFace       7073481;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12923
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          331;
+        startFace       7075992;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12927
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1296;
+        startFace       7076323;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12931
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          23;
+        startFace       7077619;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12935
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          67;
+        startFace       7077642;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12939
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22;
+        startFace       7077709;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12943
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26;
+        startFace       7077731;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12947
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          73;
+        startFace       7077757;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12951
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          52;
+        startFace       7077830;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12955
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          34;
+        startFace       7077882;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12959
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          40;
+        startFace       7077916;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12963
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          223;
+        startFace       7077956;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12967
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          52;
+        startFace       7078179;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12971
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2912;
+        startFace       7078231;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12975
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4068;
+        startFace       7081143;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12979
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          715;
+        startFace       7085211;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12983
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3727;
+        startFace       7085926;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12987
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          800;
+        startFace       7089653;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12991
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22;
+        startFace       7090453;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12995
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1504;
+        startFace       7090475;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE12999
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          27;
+        startFace       7091979;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13003
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          490;
+        startFace       7092006;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13007
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          600;
+        startFace       7092496;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13011
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          44;
+        startFace       7093096;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13015
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3;
+        startFace       7093140;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13019
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          137;
+        startFace       7093143;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13023
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3;
+        startFace       7093280;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13027
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          36;
+        startFace       7093283;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13031
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          21;
+        startFace       7093319;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13035
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          73;
+        startFace       7093340;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13043
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          33;
+        startFace       7093413;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13047
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          9;
+        startFace       7093446;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13051
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          146;
+        startFace       7093455;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13055
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          300;
+        startFace       7093601;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13059
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          151;
+        startFace       7093901;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13063
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          118;
+        startFace       7094052;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13067
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          203;
+        startFace       7094170;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13071
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          228;
+        startFace       7094373;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13075
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          95;
+        startFace       7094601;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13079
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          21;
+        startFace       7094696;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13083
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          107;
+        startFace       7094717;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13087
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          437;
+        startFace       7094824;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13091
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2625;
+        startFace       7095261;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13095
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          409;
+        startFace       7097886;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13099
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          52;
+        startFace       7098295;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13103
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          995;
+        startFace       7098347;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13107
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2625;
+        startFace       7099342;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13111
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          249;
+        startFace       7101967;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13115
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          287;
+        startFace       7102216;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13119
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          99;
+        startFace       7102503;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13123
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          86;
+        startFace       7102602;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13127
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          92;
+        startFace       7102688;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13131
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          36;
+        startFace       7102780;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13135
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          121;
+        startFace       7102816;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13139
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          126;
+        startFace       7102937;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13143
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          15;
+        startFace       7103063;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13147
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          53;
+        startFace       7103078;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13151
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          65;
+        startFace       7103131;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13155
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          617;
+        startFace       7103196;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13159
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          114;
+        startFace       7103813;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13163
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2973;
+        startFace       7103927;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13167
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          273;
+        startFace       7106900;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13171
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          5790;
+        startFace       7107173;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13175
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          19;
+        startFace       7112963;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13179
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          872;
+        startFace       7112982;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13183
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          335;
+        startFace       7113854;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13187
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          205;
+        startFace       7114189;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13191
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          341;
+        startFace       7114394;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13195
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26;
+        startFace       7114735;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13199
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          153;
+        startFace       7114761;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13203
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          86;
+        startFace       7114914;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13207
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2900;
+        startFace       7115000;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13211
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          298;
+        startFace       7117900;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13215
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7620;
+        startFace       7118198;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13219
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          19;
+        startFace       7125818;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13223
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1508;
+        startFace       7125837;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13227
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          715;
+        startFace       7127345;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13231
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          219;
+        startFace       7128060;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13235
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          731;
+        startFace       7128279;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13239
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          13;
+        startFace       7129010;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13243
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          158;
+        startFace       7129023;
+    }
+    A1_I3_B2_TE359_A1_I3_B2_TE13247
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20;
+        startFace       7129181;
+    }
+)
+
+// ************************************************************************* //
